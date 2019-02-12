@@ -1,3 +1,5 @@
+/* Hello world server in node */
+
 const http = require('http');
 
 const handler = require('./handler');
@@ -11,3 +13,5 @@ const server = http.createServer(handler);
 server.listen(port, hostname, () => {  
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+/* I am a useless comment. Discard me !*/
